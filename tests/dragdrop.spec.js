@@ -1,6 +1,6 @@
 //1st method
 import {test, expect} from "@playwright/test"
-test("double click", async ({ page }) => {
+test("drag and drop", async ({ page }) => {
     await page.goto("https://testautomationpractice.blogspot.com/");
     await page.dragAndDrop("#draggable","#droppable")
     await page.waitForTimeout(4000);

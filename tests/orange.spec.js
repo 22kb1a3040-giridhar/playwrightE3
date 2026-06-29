@@ -11,8 +11,4 @@ test("handling child page", async ({ browser }) => {
     await page.getByRole('link', { name: 'OrangeHRM, Inc' }).click();
     await page.waitForTimeout(5000);
 
-
-
-
-
 })
